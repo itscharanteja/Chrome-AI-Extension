@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Text Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>AI Text Assistant</h1>
+    <form>
+      <textarea placeholder="Enter or select text..."></textarea>
+      <output></output>
+      <p>
+        <button type="button" id="summarizeButton">Summarize</button>
+        <!-- <button type="button" id="promptButton">Generate Prompt</button>
+        <button type="button" id="detectLanguageButton">Detect Language</button> -->
+      </p>
+      <p class="not-supported-message" hidden>
+        Some features are not supported in this browser.
+      </p>
+      <!-- <label for="language">Translate to: </label>
+      <select id="language">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="ja">Japanese</option>
+      </select>
+      <button type="submit" id="translateButton">Translate</button>
+    </form>
+    
+    <span>Language detected: <span id="detectedLanguage">N/A</span></span> -->
+    <script src="popup.js"></script>
+  </body>
+</html>
